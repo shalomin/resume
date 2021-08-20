@@ -65,11 +65,28 @@ body {
     border: 4px solid #555c57;
     object-fit: cover;    
 }
+ .social{
+    margin-top: 40px;
+    margin-bottom: 50px;
+ }
 
 .social .social_link a {
     font-weight: 600;
     line-height: 25px;
     display: inline-block;
+
+}
+#work-experience{
+    text-align: center;
+
+}
+#work{
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.date{
+    font-style: italic;
 }
 
 a {
@@ -107,5 +124,9 @@ a {
     color: #066d27;
 }
 
-
-
+.image {
+ text-align: center;
+}
+.image img{
+    width: 20%;
+}
