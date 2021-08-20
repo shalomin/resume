@@ -9,17 +9,12 @@
 body {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 18px;
-    background-color: var(--bg-color);
-    color: var(--text-color);
+    background-color:#053d39 !important;
+    color:white !important;
     line-height: normal;
     letter-spacing: normal;
 }
 
-:root {
-    --text-color: white;
-    --bg-color: #053d39;
-    --int: 20px
-}
 
 .container {
     margin-left: auto;
@@ -46,8 +41,8 @@ body {
 }
 
 .int {
-    padding-top: var(--int);
-    padding-bottom: var(--int);
+    padding-top:  20px;
+    padding-bottom:  20px;
 }
 
 .int, .social {
